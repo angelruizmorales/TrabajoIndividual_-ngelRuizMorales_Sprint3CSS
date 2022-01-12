@@ -1,0 +1,33 @@
+
+  .Vertical {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contenido1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .texto {
+    flex: 80%;
+  }
+  .imagen {
+    flex: 50%;
+  }
+  .formulario {
+    flex: 100%;
+  }
+  @media (min-width: 600px) {
+    .Horizontal {
+      flex-direction: row;
+    }
+    .texto {
+      flex: 30%;
+    }
+    .imagen {
+      flex: 30%;
+    }
+    .formulario {
+      flex: 40%;
+    }
+  }
